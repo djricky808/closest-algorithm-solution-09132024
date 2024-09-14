@@ -9,6 +9,7 @@ export function closest(nums: number[], target: number) {
   let prevDifference = 1000000;
 
   let closestSum = 0;
+  
   for (let i = 0; i < sortedNums.length; i++) {
     let j = i + 1;
     let k = sortedNums.length - 1;
